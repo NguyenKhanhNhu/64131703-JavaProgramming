@@ -12,10 +12,11 @@ public class chuvidt {
         
         double chuVi = 2 * (chieuDai + chieuRong);
         double dienTich = chieuDai * chieuRong;
+        double canhNho = Math.min(chieuDai, chieuRong);
 
         System.out.println("Chu vi: " + chuVi);
         System.out.println("Diện tích: " + dienTich);
-        //System.out.println("Cạnh nhỏ nhất: " + );
+        System.out.println("Cạnh nhỏ nhất: " + canhNho);
 
         scanner.close();
 
