@@ -13,5 +13,12 @@ public class delta {
         System.out.print("Nhập c: ");
         double c = scanner.nextDouble();
         
+        double delta = Math.pow(b, 2) - 4 * a * c;
+        double canDelta = Math.sqrt(Math.abs(delta));
+
+        System.out.println("delta: " + delta);
+        System.out.println("Căn delta: " + canDelta);
+
+        scanner.close();
 	}
 }
