@@ -1,10 +1,10 @@
 
 public class SanPham {
-	//Định nghĩa các thuộc tính
+	//dinh nghia cac thuoc tinh
 	int maSP;
 	String tenSP;
 	String loaiSP;
-	String anhSP; //tên file ảnh
+	String anhSP; //ten file anh
 
 	public SanPham() {
 		super();
